@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "f2199f21-030c-436e-9816-4451b00df996": {
+        "id": "f2199f21-030c-436e-9816-4451b00df996",
+        "parent": null,
+        "name": "testIndunilMrg",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "a49cfe03-6c47-4f75-837e-3f0f0a0a4a3d"
+        ],
+        "isRemovable": false,
+        "filePath": "testIndunilMrg"
+      },
+      "a49cfe03-6c47-4f75-837e-3f0f0a0a4a3d": {
+        "id": "a49cfe03-6c47-4f75-837e-3f0f0a0a4a3d",
+        "parent": "f2199f21-030c-436e-9816-4451b00df996",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testIndunilMrg/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "f2199f21-030c-436e-9816-4451b00df996",
+    "openFiles": [
+      "a49cfe03-6c47-4f75-837e-3f0f0a0a4a3d"
+    ],
+    "currentFileId": "a49cfe03-6c47-4f75-837e-3f0f0a0a4a3d",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testIndunilMrg",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1567487393945
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testIndunilMrg",
+      "url": "https://github.com/Indunil1992/testIndunilMrg"
+    }
+  }
+}
